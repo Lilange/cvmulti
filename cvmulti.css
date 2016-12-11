@@ -1,0 +1,72 @@
+
+	#accueil {
+		background-image:url("img/lune.jpg");
+
+		}
+
+	#h1 {
+		color:white;
+		padding-top:6em;
+		padding-left:15em;
+		}
+
+	#nav {
+		display:flex;
+		justify-content:space-between;
+
+		}
+
+	li     {             /*space between top for nav*/
+		margin:3.5em;
+		}
+
+	
+	.all_body {
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items: center;
+		}
+
+	.all_h1 {
+		border: 2px solid white;
+		border-radius: 20px;
+		background-color:black;
+		color:white;
+		text-align:center;
+		padding:1em;
+		width:240px;
+		height:40px;
+		margin-top:2em;
+		}
+
+	.all_section {
+		border: 2px solid white;
+		border-radius: 20px;
+		background-color:black;
+		color:white;
+		text-align:center;
+		width:800px;
+		height:350px;
+		margin-top:6em;
+		}
+
+	#experiences { 
+		
+		background-image:url("img/symbol.jpg");
+		}
+
+	#competences {
+
+		background-image:url("img/symbol4.jpg");
+		}
+
+	#diplomes {
+
+		background-image:url("img/symbol2.jpg");
+		}
+
+	#loisirs {
+
+		background-image:url("img/symbol3.jpg");
+		}
